@@ -1,5 +1,5 @@
 ## EX-2  Image-Acquisition-from-Web-Camera
-### Date: 15/03/2023
+### Date: 22/03/2023
 ### Aim:
  To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
 i) Write the frame as JPG 
