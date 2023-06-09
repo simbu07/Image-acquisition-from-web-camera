@@ -1,40 +1,33 @@
-# Image-Acquisition-from-Web-Camera
-## Aim
- 
-Aim:
- 
-To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
+## EX-2  Image-Acquisition-from-Web-Camera
+### Date: 15/03/2023
+### Aim:
+ To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
 i) Write the frame as JPG 
 ii) Display the video 
 iii) Display the video by resizing the window
 iv) Rotate and display the video
 
-## Software Used
+### Software Used:
 Anaconda - Python 3.7
-## Algorithm
+### Algorithm:
 ### Step 1:
-
 Import cv2 and capture the video using cv2.VideoCapture(0).
-
-
 ### Step 2:
 Write the captured image using cv2.imwrite("NewPicture.jpg",frame).
-
 ### Step 3:
 Resize the image using cv2.resize(frame, (0,0), fx = 0.5, fy=0.5).
-
 ### Step 4:
 Display the image until the loop gets over.
-
 ### Step 5:
 Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180).
 
-## Program:
-``` Python
-### Developed By: Silambarasan K
-### Register No: 212221230101
-
-## i) Write the frame as JPG file
+### Program:
+```
+Developed By: Silambarasan K
+Register No: 212221230101
+```
+```py
+# i) Write the frame as JPG file
 
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
